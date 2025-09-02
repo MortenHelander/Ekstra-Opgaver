@@ -32,7 +32,26 @@ void draw(){
   fill(255,184,3);
   rect(10,80,100,50);
   }
-  
+  else if (mouseX>=150 && mouseX<=200 && mouseY>=10 && mouseY<=60){
+    fill(246,255,3);
+    rect(10,80,100,50);
+  }
+  else if (mouseX>=220 && mouseX<=270 && mouseY>=10 && mouseY<=60){
+    fill(22,255,3);
+    rect(10,80,100,50);
+  }
+   else if (mouseX>=290 && mouseX<=340 && mouseY>=10 && mouseY<=60){
+    fill(3,236,255);
+    rect(10,80,100,50);
+  }
+  else if (mouseX>=360 && mouseX<=410 && mouseY>=10 && mouseY<=60){
+    fill(94,3,255);
+    rect(10,80,100,50);
+  }
+  else if (mouseX>=430 && mouseX<=480 && mouseY>=10 && mouseY<=60){
+    fill(255,3,251);
+    rect(10,80,100,50);
+  }
   
   
   }
